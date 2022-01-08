@@ -26,8 +26,7 @@ import turtle
     
 # turtle.done() 
 
-x = 0
-while x != "exit":
+while True:
     x = input("請輸入編號:")
     if x == '1':
         print('蘋果')
@@ -38,6 +37,8 @@ while x != "exit":
     elif x == '3':
         print('葡萄')
         continue
+    elif x == 'exit':
+        break
     else:
         print('not found 404')
     
