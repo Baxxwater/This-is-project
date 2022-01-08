@@ -24,16 +24,20 @@ import turtle
 #     turtle.forward(100)
 #     turtle.right(144)
     
-# turtle.done()
-a = '蘋果' 
-b = '柳橙'
-c = '葡萄'
-x = int(input("請輸入編號:")) 
+# turtle.done() 
+
+x = 0
 while x != "exit":
-    if x == 1:
-        print(a)
-    elif x == 2:
-        print(b)
-    elif x == 3:
-        print(c)
+    x = input("請輸入編號:")
+    if x == '1':
+        print('蘋果')
+        continue
+    elif x == '2':
+        print('柳橙')
+        continue
+    elif x == '3':
+        print('葡萄')
+        continue
+    else:
+        print('not found 404')
     
