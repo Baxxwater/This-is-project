@@ -30,13 +30,10 @@ while True:
     x = input("請輸入編號:")
     if x == '1':
         print('蘋果')
-        continue
     elif x == '2':
         print('柳橙')
-        continue
     elif x == '3':
         print('葡萄')
-        continue
     elif x == 'exit':
         break
     else:
