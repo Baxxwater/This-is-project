@@ -1,14 +1,14 @@
 import turtle  
-#for i in range(5):    
-   # for t in range(4):
-    #    turtle.forward(100)
-    #    turtle.right(90)
-    #turtle.left(90)
-    #for e in range(4):    
-    #    turtle.backward(100)
-    #    turtle.left(90)
-    #turtle.right(90)
-#turtle.done()
+# for i in range(5):    
+#    for t in range(4):
+#        turtle.forward(100)
+#        turtle.right(90)
+#     turtle.left(90)
+#     for e in range(4):    
+#        turtle.backward(100)
+#        turtle.left(90)
+#     turtle.right(90)
+# turtle.done()
 
 # turtle.penup()
 # turtle.color('red')
@@ -26,16 +26,16 @@ import turtle
     
 # turtle.done() 
 
-while True:
-    x = input("請輸入編號:")
-    if x == '1':
-        print('蘋果')
-    elif x == '2':
-        print('柳橙')
-    elif x == '3':
-        print('葡萄')
-    elif x == 'exit':
-        break
-    else:
-        print('not found 404')
+# while True:
+#     x = input("請輸入編號:")
+#     if x == '1':
+#         print('蘋果')
+#     elif x == '2':
+#         print('柳橙')
+#     elif x == '3':
+#         print('葡萄')
+#     elif x == 'exit':
+#         break
+#     else:
+#         print('not found 404')
     
