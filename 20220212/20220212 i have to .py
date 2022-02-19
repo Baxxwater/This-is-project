@@ -22,22 +22,14 @@ def rm (j_l):
     return j_l
 
 l = []
+sl = [add , dp , rm]
 while True:    
     print("1加入物品")
     print("2顯示所有物品")
     print("3刪除物品")
     print("4離開")
-    s = input("請輸入代號:")
-    if s == "1":
-        l = add(l)
-        print("..................")
-    elif s == "2":
-        dp(l)
-        print('..................')   
-    elif s == "3":
-        rm(l)
-        print('..................')
-    elif s == "4":
+    s = int(input("請輸入代號:"))
+    if s == 4:
         a = input ('you really want to exit?Y/N')
         if a == "y":
             break
@@ -48,3 +40,4 @@ while True:
         print('!!!lishilapasa!!!')
         print('-----------------')
         continue
+    l = sl[s-1](l)
